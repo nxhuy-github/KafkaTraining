@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BicycleDataProducer.iml" filepath="$PROJECT_DIR$/BicycleDataProducer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bicycledataproducer.iml" filepath="$PROJECT_DIR$/bicycledataproducer.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,4 @@
-package com.nxhuy.kafka.training
-
+package com.nxhuy.kafka.producer.training
 import java.text.SimpleDateFormat
 import java.util.{Calendar, Properties, UUID}
 
@@ -7,7 +6,6 @@ import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 
 import scala.util.Random
 import scala.util.control.Breaks
-
 object BicycleDataProducer {
   def main(args: Array[String]): Unit = {
     val brokers = util.Try(args(0)).getOrElse("localhost:9092")
@@ -70,4 +68,3 @@ object BicycleDataProducer {
     }
   }
 }
-
